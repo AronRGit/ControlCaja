@@ -14,12 +14,12 @@ que no se descontó. Este sistema concilia ambas fuentes y dice exactamente cuá
  
 ## Tecnologías
  
- Herramienta | Uso |
- Java 17 
- H2 Database | Base de datos embebida, no requiere instalación 
- HikariCP | Pool de conexiones 
- JDBC puro | Acceso a datos sin ORM 
- Maven | Gestión de dependencias 
+
+ |Java 17 |
+| H2 Database | Base de datos embebida, no requiere instalación |
+| HikariCP | Pool de conexiones |
+| JDBC puro | Acceso a datos sin ORM |
+| Maven | Gestión de dependencias |
 
 ## Ejemplo de salida
  
