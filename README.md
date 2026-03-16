@@ -15,14 +15,17 @@ que no se descontó. Este sistema concilia ambas fuentes y dice exactamente cuá
 ## Tecnologías
  
 
- |Java 17 |
+| Herramienta | Uso |
+|---|---|
+| Java 17 | Lenguaje principal |
 | H2 Database | Base de datos embebida, no requiere instalación |
-| HikariCP | Pool de conexiones |
+| HikariCP | Pool de conexiones  |
 | JDBC puro | Acceso a datos sin ORM |
 | Maven | Gestión de dependencias |
 
 ## Ejemplo de salida
  
+```
 ══════════════════════════════════════════
        CIERRE DE CAJA — 2025-03-06
        Cajero: María Quispe
@@ -46,4 +49,5 @@ que no se descontó. Este sistema concilia ambas fuentes y dice exactamente cuá
   → El efectivo es el canal con mayor riesgo de error en vueltos
   → Ventas POS: S/ 115.80 (comisión 3.5% ya descontada)
 ══════════════════════════════════════════
+```
 
